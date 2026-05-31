@@ -71,7 +71,7 @@ export function Footer() {
         </div>
 
         <div className="mt-10 border-t border-border pt-6 text-center text-xs text-muted-foreground">
-          <p>© {new Date().getFullYear()} Alex Carter. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Akinjiyan Benjamin. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -125,7 +125,7 @@ export function Contact() {
                 <input
                   id="name"
                   type="text"
-                  placeholder="Jane Doe"
+                  placeholder="Your name"
                   value={values.name}
                   onChange={(e) =>
                     setValues((v) => ({ ...v, name: e.target.value }))
@@ -144,7 +144,7 @@ export function Contact() {
                 <input
                   id="email"
                   type="email"
-                  placeholder="jane@example.com"
+                  placeholder="you@example.com"
                   value={values.email}
                   onChange={(e) =>
                     setValues((v) => ({ ...v, email: e.target.value }))
